@@ -1,0 +1,163 @@
+body{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+img{
+  width:14vh;
+  filter: saturate(50%) invert(80%) drop-shadow(0px 0px 0px #0000ff);
+  position:relative;
+  float:right;
+  object-fit: cover;
+}
+.fotoGrande{
+  width:15vh;
+  float:right;
+  filter: saturate(50%) invert(80%) drop-shadow(0px 0px 0px #0000ff);
+}
+.centro{
+  margin-left: 5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-style: oblique;
+ color: black
+}
+ul{
+  text-align: center;
+padding: 0;
+list-style: none;
+margin-top: 25px;
+color:rgb(0, 0, 0);
+opacity: 0.9;
+font-family: 'Lato', Calibri, Arial, sans-serif;
+font-weight: 100;
+font-size: 2.5rem; 
+cursor: pointer;
+}
+
+li:hover{
+  color:rgb(255, 255, 255);
+}
+.row1{
+    display: flex;
+    justify-self: center;
+    padding:10px;
+}
+.row2{
+  display:flex;
+  justify-self: center;
+  padding:10px;
+}
+.row3{
+  display: flex;
+  justify-self: center;
+  padding:10px;
+}
+.row4{
+  display: flex;
+  justify-self: center;
+  padding:10px;
+}
+.clima-lisbon{
+  box-sizing: border-box;
+  background-color:#3399CC;
+  border: 5px solid #3399CC;
+  width: 37vw;
+  height: 33vh;
+  box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-paris{
+  box-sizing: border-box;
+  background-color:#33CCCC;
+  border: 5px solid #33CCCC;
+  opacity: 0.8;
+  width: 18vw;
+  height: 33vh;
+  margin-left:20px;
+  box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-belgrade{
+  box-sizing: border-box;
+  background-color:#996699;
+  border: 5px solid #996699;
+  width: 17.8vw;
+  height: 33vh;
+  margin-left: 22px;
+  box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-moscow{
+box-sizing: border-box;
+background-color: #C24747;
+border: 5px solid #C24747;
+width: 18vw;
+height: 33vh;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-new{
+box-sizing: border-box;
+background-color: #e2674a;
+border: 5px solid #e2674a;
+width: 18vw;
+height: 33vh;
+margin-left: 15px;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-tel{
+box-sizing: border-box;
+background-color:  #FFCC66;
+border: 5px solid  #FFCC66;
+width: 18vw;
+height: 33vh;
+margin-left: 18px;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-cairo{
+box-sizing: border-box;
+background-color: #99CC99;
+border:5px solid   #99CC99;
+width: 18vw;
+height: 33vh;
+margin-left: 20px;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-york{
+box-sizing: border-box;
+background-color: #669999; ;
+border: 5px solid  #669999;;
+width: 18vw;
+height: 33vh;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-san{
+  box-sizing: border-box;
+background-color:#CC6699;
+border: 5px solid #CC6699;
+width: 37vw;
+height: 33vh;
+margin-left: 15px;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+.clima-tokyo{
+box-sizing: border-box;
+background-color :#339966;
+border: 5px solid #339966;
+width: 18.4vw;
+height: 33vh;
+margin-left: 20px;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+
+.clima-sidney{
+box-sizing: border-box;
+background-color:#666699;
+border: 5px solid #666699;
+width: 75.7vw;
+height: 33vh;
+box-shadow: 10px 10px 10px rgba(119, 117, 117, 0.18), 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+
